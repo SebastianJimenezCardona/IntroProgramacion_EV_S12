@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popete - Tu historia, a tu manera</title>
+    <!-- Importación de tipografías desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Vinculación con la hoja de estilos externa -->
+     <link rel="stylesheet" href="CSS/estilos.css">
+    
+</head>
+<body>
+
+    <!-- 1. HEADER / ENCABEZADO -->
+    <header class="encabezado">
+        <div class="logo">
+            <a href="#inicio">
+            <img src="IMG/logo.jpeg" alt="Popete Logo" class="logo-header-img">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#beneficios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. HERO / SECCIÓN PRINCIPAL -->
+        <section id="inicio" class="hero">
+            <div class="hero-contenedor">
+                <!-- Columna Izquierda: Textos y CTA -->
+                <div class="hero-texto">
+                    <h1>Popete</h1>
+                    <p class="eslogan">Tu historia, a tu manera</p>
+                    <p class="descripcion-hero">
+                        Creamos recuerdos mágicos para las etapas más hermosas de la vida. 
+                        Diseñado especialmente para madres, embarazadas y abuelas que desean atesorar cada momento.
+                    </p>
+                    <a href="#productos" class="boton-cta">Ver Colección</a>
+                </div>
+                <!-- Columna Derecha: Imagen destacada -->
+                <div class="hero-imagen">
+                    <img src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?q=80&w=800&auto=format&fit=crop" alt="Bebé jugando plácidamente en su cuna">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SECCIÓN NOSOTROS -->
+        <section id="nosotros" class="nosotros">
+            <h2>Nuestra Historia</h2>
+            <div class="nosotros-contenedor">
+                <div class="nosotros-imagen">
+                    <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop" alt="Dos hermanas diseñando recuerdos para bebés">
+                </div>
+                <div class="nosotros-texto">
+                    <h3>¿Quiénes somos?</h3>
+                    <p>
+                        Popete es un emprendimiento que nació en Bello, Antioquia, del amor de dos hermanas. Todo comenzó con la bella idea de crear un álbum de recuerdos único para Muel, el recién nacido de una de ellas.
+                    </p>
+                    <h3>¿Qué hacemos y qué nos diferencia?</h3>
+                    <p>
+                        Nos especializamos en artículos con significado para bebés: juguetes de madera, cuadros, kits de maternidad y nuestro producto estrella, el álbum <strong>"Tu Pequeña Gran Historia"</strong>. Ayudamos a familias a inmortalizar los momentos más bonitos del embarazo y los primeros años de vida con amor y delicadeza.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SECCIÓN PRODUCTOS -->
+        <section id="productos" class="productos">
+            <h2>Nuestros Productos</h2>
+            <p class="subtitulo-seccion">Encuentra el detalle perfecto para atesorar cada primera vez.</p>
+            
+            <div class="productos-contenedor">
+                <!-- Tarjeta 1 -->
+                <article class="producto-tarjeta">
+                    <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=600&auto=format&fit=crop" alt="Álbum de recuerdos Tu Pequeña Gran Historia">
+                    <div class="producto-info">
+                        <h3>Tu Pequeña Gran Historia</h3>
+                        <p>Álbum de recuerdos de bebé para plasmar cada etapa inolvidable del crecimiento.</p>
+                        <span class="precio">$130.000</span>
+                        <a href="#contacto" class="boton-producto">Comprar</a>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 2 -->
+                <article class="producto-tarjeta">
+                    <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=600&auto=format&fit=crop" alt="Caballito de madera Chiquilín">
+                    <div class="producto-info">
+                        <h3>Chiquilín</h3>
+                        <p>Un hermoso caballito de madera artesanal diseñado para las primeras aventuras épicas.</p>
+                        <span class="precio">$250.000</span>
+                        <a href="#contacto" class="boton-producto">Comprar</a>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 3 -->
+                <article class="producto-tarjeta">
+                    <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=600&auto=format&fit=crop" alt="Juego de portarretratos 12 sonrisas">
+                    <div class="producto-info">
+                        <h3>12 Sonrisas</h3>
+                        <p>Juego de portarretratos especial para exhibir una fotografía de cada mes del primer año.</p>
+                        <span class="precio">$100.000</span>
+                        <a href="#contacto" class="boton-producto">Comprar</a>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 4 -->
+                <article class="producto-tarjeta">
+                    <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=600&auto=format&fit=crop" alt="Kit de felicitación ¡Es real!">
+                    <div class="producto-info">
+                        <h3>¡Es real!</h3>
+                        <p>Kit de felicitación para futuros padres. Incluye amigurumi, chocolate, postal y bono para álbum.</p>
+                        <span class="precio">$120.000</span>
+                        <a href="#contacto" class="boton-producto">Comprar</a>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 5 -->
+                <article class="producto-tarjeta">
+                    <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600&auto=format&fit=crop" alt="Kit especial para Babyshower">
+                    <div class="producto-info">
+                        <h3>Kit para Babyshower</h3>
+                        <p>Contiene álbum, pañales, pañitos húmedos y un tierno amigurumi de osito.</p>
+                        <span class="precio">$210.000</span>
+                        <a href="#contacto" class="boton-producto">Comprar</a>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 6 -->
+                <article class="producto-tarjeta">
+                    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=600&auto=format&fit=crop" alt="Impresión de fotografías de recuerdos">
+                    <div class="producto-info">
+                        <h3>Servicio de Impresión</h3>
+                        <p>Impresión fotográfica de alta calidad para llenar tu álbum de recuerdos inolvidables.</p>
+                        <span class="precio">$15.000 / 12 fotos</span>
+                        <a href="#contacto" class="boton-producto">Comprar</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 5. SECCIÓN BENEFICIOS Y SERVICIOS -->
+        <section id="beneficios" class="beneficios">
+            <h2>¿Por qué elegir Popete?</h2>
+            <div class="beneficios-contenedor">
+                <div class="beneficio-tarjeta">
+                    <div class="icono-beneficio">💝</div>
+                    <h3>Hecho a Mano con Amor</h3>
+                    <p>Cada detalle es elaborado artesanalmente por dos hermanas apasionadas por inmortalizar momentos.</p>
+                </div>
+                <div class="beneficio-tarjeta">
+                    <div class="icono-beneficio">⭐</div>
+                    <h3>Materiales Duraderos</h3>
+                    <p>Productos con acabado de alta calidad para guardar los recuerdos durante generaciones.</p>
+                </div>
+                <div class="beneficio-tarjeta">
+                    <div class="icono-beneficio">📦</div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Acompañamiento cercano para preparar kits únicos y personalizados según la historia de tu familia.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. TABLA DE PAQUETES Y PRECIOS -->
+        <section class="tabla-seccion">
+            <h2>Comparativa de Paquetes y Recuerdos</h2>
+            <div class="tabla-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Paquete / Servicio</th>
+                            <th>Productos Incluidos</th>
+                            <th>Ideal Para</th>
+                            <th>Precio (COP)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paquete Bienvenida</td>
+                            <td>Álbum "Tu Pequeña Gran Historia" + Impresión 12 fotos</td>
+                            <td>Futuras Madres</td>
+                            <td>$140.000</td>
+                        </tr>
+                        <tr>
+                            <td>Kit Celebración ¡Es real!</td>
+                            <td>Amigurumi + Chocolate + Postal + Bono Álbum</td>
+                            <td>Regalo para Futuros Padres</td>
+                            <td>$120.000</td>
+                        </tr>
+                        <tr>
+                            <td>Combo Babyshower Completo</td>
+                            <td>Álbum + Pañales + Pañitos + Amigurumi Osito</td>
+                            <td>Regalo de Babyshower</td>
+                            <td>$210.000</td>
+                        </tr>
+                        <tr>
+                            <td>Rincón de Aventuras</td>
+                            <td>Caballito de madera Chiquilín + Juego 12 Sonrisas</td>
+                            <td>Primeros años y decoración</td>
+                            <td>$330.000</td>
+                        </tr>
+                        <tr>
+                            <td>Servicio Fotográfico Express</td>
+                            <td>12 fotos impresas a color en alta calidad</td>
+                            <td>Actualización de álbumes</td>
+                            <td>$15.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 7. GALERÍA -->
+        <section id="galeria" class="galeria">
+            <h2>Galería de Recuerdos</h2>
+            <p class="subtitulo-seccion">Un vistazo a los detalles que enamoran a las familias.</p>
+            <div class="galeria-contenedor">
+                <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=500&auto=format&fit=crop" alt="Detalle de pie de bebé recien nacido">
+                <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=500&auto=format&fit=crop" alt="Juguetes infantiles tejidos a mano">
+                <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=500&auto=format&fit=crop" alt="Páginas decoradas de un álbum de bebé">
+                <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=500&auto=format&fit=crop" alt="Caballito de madera artesanal">
+                <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=500&auto=format&fit=crop" alt="Cuadro de fotos del primer año del bebé">
+                <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=500&auto=format&fit=crop" alt="Caja de regalo para babyshower de Popete">
+            </div>
+        </section>
+
+        <!-- 8. FORMULARIO DE CONTACTO -->
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+            <p class="subtitulo-seccion">Escríbenos y te ayudaremos a elegir el detalle perfecto.</p>
+            
+            <form class="formulario-contacto" action="#" method="post">
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Maria Gómez" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ej. maria@ejemplo.com" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej. +57 3245499768" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad" placeholder="Ej. Bello, Antioquia" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="servicio">Producto o Servicio de interés:</label>
+                    <select id="servicio" name="servicio" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="album">Álbum: Tu Pequeña Gran Historia</option>
+                        <option value="chiquilin">Caballito de Madera Chiquilín</option>
+                        <option value="12sonrisas">Portarretratos 12 Sonrisas</option>
+                        <option value="esreal">Kit ¡Es Real!</option>
+                        <option value="babyshower">Kit para Babyshower</option>
+                        <option value="impresion">Servicio de Impresión de Fotos</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="mensaje">Mensaje o consulta:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+                </div>
+
+                <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- 9. FOOTER / PIE DE PÁGINA -->
+    <footer class="pie-pagina">
+        <div class="pie-pagina-contenedor">
+            <h3>Popete</h3>
+            <p class="eslogan-footer">Tu historia, a tu manera</p>
+            <p><strong>Ubicación:</strong> Bello, Antioquia | <strong>Teléfono:</strong> +57 3245499768</p>
+            <p><strong>Email:</strong> popete.recuerdos@gmail.com</p>
+            <p>
+                <strong>Instagram:</strong> 
+                <a href="https://www.instagram.com/popete.recuerdos/" target="_blank" rel="noopener">@popete.recuerdos</a>
+            </p>
+            <p class="derechos">© 2026 Popete — Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
